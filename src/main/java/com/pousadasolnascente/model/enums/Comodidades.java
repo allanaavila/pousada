@@ -1,4 +1,16 @@
 package com.pousadasolnascente.model.enums;
 
-public class Comodidades {
+public enum Comodidades {
+    ESTACIONAMENTO,
+    RESTAURANTE,
+    ACEITA_PETS,
+    SERVICO_DE_QUARTO,
+    RECEPCAO_24_HORAS,
+    ACADEMIA,
+    QUARTOS_PARA_NAO_FUMANTES,
+    QUARTOS_PARA_FAMILIAS,
+    SPA,
+    WI_FI_GRATUITO,
+    ACESSIVEL_CADEIRAS_RODAS,
+    PISCINA;
 }
