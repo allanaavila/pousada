@@ -1,4 +1,8 @@
 package com.pousadasolnascente.repository;
 
-public class UsuarioRepository {
+import com.pousadasolnascente.model.entity.Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+    Usuario findByEmail(String email);
 }
